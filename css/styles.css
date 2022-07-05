@@ -72,7 +72,7 @@ p{
 
 
 .profile-pic{
-    width: 85%;
+    width: 75%;
    
 }
 
@@ -108,11 +108,12 @@ p{
 
 .web-dev-gif{
     width: 75%;
-
+    margin: 25%;
 }
 
 .studying-img{
     width: 75%;
+    margin:25%;
 }
 
 .search-img{
@@ -163,7 +164,7 @@ p{
 
 /* for mobile */
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
     body{
         text-align: center;
     }
@@ -184,11 +185,17 @@ p{
 
     #contact h3{
         font-size: 1.2rem;
-        line-height: 21rem;
+        line-height: 2rem;
     }
 
+    .title-me{
+        
+        margin: 2%;
+    }
 
-
+    .profile-pic{
+        width: 50%;
+    }
 
     
 }
