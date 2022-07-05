@@ -73,7 +73,7 @@ p{
 
 .profile-pic{
     width: 75%;
-   
+    margin: 25%;
 }
 
 /* about me section */
@@ -181,6 +181,10 @@ p{
 
     .container-fluid{
         padding: 3% 2% 5%;
+    }
+
+    .row{
+        margin: 0;
     }
 
     #contact h3{
