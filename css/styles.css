@@ -1,0 +1,194 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h2,h3{
+    font-weight: bold;
+    line-height: 75px;
+    
+}
+
+p{
+    font-size: 1.5rem;
+    
+}
+
+
+
+/* title section */
+
+#title{
+    background-image: url("../images/mountain.png");
+
+    background-size: cover;
+}
+
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+
+
+.navbar-brand{
+
+    font-size: 2rem;
+}
+.nav-item{
+    font-size: 1.5rem;
+}
+
+
+.title-header{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 10% 0 7%;
+    padding: auto;
+
+}
+
+
+.title-me{
+    background: linear-gradient(180deg, rgba(162,157,198,1) 1%, rgba(122,132,184,1) 51%, rgba(85,88,131,1) 91%);
+    color: white;
+    border-radius: 25px;
+    padding: 3% 2.5% 4%;
+}
+
+.fa{
+    position: relative;
+    font-size: 2rem;
+    padding: 3% 2% 0;
+    color: #fff;
+}
+
+
+.profile-pic{
+    width: 75%;
+    margin-left: 25%
+}
+
+/* about me section */
+
+#about-me{
+    background: linear-gradient(180deg, rgba(255,200,204,1) 7%, rgba(255,244,229,1) 97%);
+    text-align: left;
+}
+
+.about-me-header{
+    text-align: center;
+    
+    
+}
+
+
+
+.txt{
+    background: linear-gradient(180deg, rgba(162,157,198,1) 1%, rgba(122,132,184,1) 51%, rgba(85,88,131,1) 91%);
+    color: white;
+    border-radius: 25px;
+    padding: 3% 2.5% 4%;
+    margin: 3% auto 5%; 
+
+}
+
+.txt a{
+    
+    color: black;
+    font-weight: bold;
+}
+
+.web-dev-gif{
+    width: 75%;
+
+}
+
+.studying-img{
+    width: 75%;
+}
+
+.search-img{
+    width: 75%;
+}
+
+
+/* contact section */
+
+#contact{
+    background-color:rgba(255,244,229,1);
+    text-align: center;
+    
+}
+
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5  51%, #00d2ff  100%);
+    margin: 4% auto 5%;
+    width: 250px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+
+
+
+#footer{
+    text-align: center;
+    background-color: #9389be;
+}
+
+
+/* for mobile */
+
+@media (max-width: 425px) {
+    body{
+        text-align: center;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+
+    .container-fluid{
+        padding: 3% 2% 5%;
+    }
+
+    #contact h3{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+
+
+
+    
+}
