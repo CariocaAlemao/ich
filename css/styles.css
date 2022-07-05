@@ -183,13 +183,16 @@ p{
         padding: 3% 2% 5%;
     }
 
-    .row{
-        margin: 0;
-    }
+
 
     #contact h3{
         font-size: 1.2rem;
         line-height: 2rem;
+    }
+
+    #title .row{
+        margin:0;
+        padding: 0;
     }
 
     .title-me{
@@ -198,8 +201,11 @@ p{
     }
 
     .profile-pic{
-        width: 50%;
+        margin: 0;
     }
 
+    .web-dev-gif{
+        margin:0;
+    }
     
 }
